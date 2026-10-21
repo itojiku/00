@@ -1,0 +1,25 @@
+.academic-main{min-height:calc(100vh - 88px);padding-top:28px;padding-bottom:110px}
+.breadcrumbs{display:flex;flex-wrap:wrap;gap:10px;align-items:center;color:#737373;font:10px var(--font-mono);letter-spacing:.035em}
+.breadcrumbs a{transition:color .2s}.breadcrumbs a:hover{color:var(--chartreuse)}.breadcrumbs [aria-current=page]{color:#c2c2c2}
+.academic-intro{padding:82px 0 49px}
+.back-link{display:inline-flex;align-items:center;gap:9px;margin-bottom:45px;color:#9a9a9a;font-size:12px;transition:color .2s}
+.back-link:hover{color:var(--chartreuse)}
+.academic-intro .eyebrow{margin-bottom:13px}
+.academic-intro h1{margin:0;font-size:clamp(52px,7vw,78px);line-height:1.05;font-weight:600;letter-spacing:-.075em}
+.heading-period{color:var(--pink)}
+.academic-description{margin:15px 0 0;color:#999;font-size:14px;line-height:1.65}
+.academic-list{max-width:850px;border-top:1px solid var(--line)}
+.academic-card{display:grid;grid-template-columns:68px 1fr 28px;align-items:center;min-height:110px;padding:20px 12px;border-bottom:1px solid var(--line);transition:background .2s,padding .2s}
+a.academic-card:hover{background:#151515;padding-inline:20px}
+.card-index{align-self:start;padding-top:3px;color:#6e6e6e;font:10px var(--font-mono)}
+.academic-card-copy{display:flex;flex-direction:column;gap:7px}
+.academic-card-copy strong{font-size:19px;font-weight:600;letter-spacing:-.35px}
+.academic-card-copy>span{color:#898989;font-size:12px}
+.academic-card .card-arrow{color:var(--chartreuse)}
+.is-disabled{color:#626262;cursor:default}
+.is-disabled .academic-card-copy strong,.is-disabled .academic-card-copy>span{color:#626262}
+.coming-label{justify-self:end;color:#7c7c7c;font:9px var(--font-mono);letter-spacing:.07em;text-transform:uppercase}
+.unit-card{min-height:130px}
+.academic-card-copy .unit-label{color:var(--pink);font:10px var(--font-mono);letter-spacing:.08em;text-transform:uppercase}
+.academic-card-copy .unit-label+strong{font-size:16px}
+@media(max-width:640px){.academic-main{min-height:calc(100vh - 70px);padding-top:20px;padding-bottom:76px}.breadcrumbs{gap:7px;font-size:9px}.academic-intro{padding:61px 0 38px}.back-link{margin-bottom:37px}.academic-intro h1{font-size:56px}.academic-description{font-size:13px}.academic-card{grid-template-columns:37px 1fr 22px;min-height:96px;padding:17px 5px}.academic-card-copy strong{font-size:17px}.coming-label{max-width:62px;text-align:right;font-size:8px}.unit-card{min-height:124px}.academic-card-copy .unit-label+strong{font-size:14px;line-height:1.5}}

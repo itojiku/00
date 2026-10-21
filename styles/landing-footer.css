@@ -1,0 +1,4 @@
+/* The landing page uses a black footer, while all academic pages keep the shared pink footer. */
+.landing-page .site-footer{background:var(--black);color:var(--white)}
+.landing-page .footer-wordmark span{color:var(--pink)}
+.landing-page .footer-bottom{border-top-color:#454545}
